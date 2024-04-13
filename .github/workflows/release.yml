@@ -7,10 +7,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Configure user name and email
+        run: |
+          git config user.name "Sync-Bot"
+          git config user.email "xchwarze@gmail.com"
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
 
       - name: Setup Workspace
         run: |
