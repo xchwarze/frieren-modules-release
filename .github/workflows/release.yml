@@ -62,6 +62,12 @@ jobs:
             fi
           done
 
+      - name: Setup and run release script
+        run: |
+          cd ${{ github.workspace }}/repo/bin
+          yarn install --frozen-lockfile
+          yarn release --source ${{ github.workspace }}/build/frieren-modules --build ${{ github.workspace }}/repo/modules
+
       - name: Commit and push changes
         run: |
           cd ${{ github.workspace }}/repo
