@@ -47,7 +47,7 @@ jobs:
               echo "[*] Prepare project"
               yarn install --frozen-lockfile
               cp config/.env.release .env
-              echo "VITE_COMMON_ALIAS='${{ github.workspace }}/build/frieren/src'" >> .env
+              echo "VITE_COMMON_ALIAS='${{ github.workspace }}/build/frieren/frieren-front/src'" >> .env
 
               echo "[*] Build module"
               yarn build
