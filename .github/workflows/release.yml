@@ -33,23 +33,33 @@ jobs:
         run: |
           for dir in build/frieren-modules/*; do
             if [ -d "$dir" ]; then
-              echo "\n\n\n-------------------------"
-              echo "Processing directory $dir"
+              echo -e "\n\n\n-------------------------"
+              echo "[*] Processing directory $dir"
               cd "$dir"
 
-              echo "Prepare project"
+              echo "[*] Prepare project"
               yarn install --frozen-lockfile
               cp config/.env.release .env
               echo "VITE_COMMON_ALIAS='../../frieren/frieren-front/src'" >> .env
 
-              echo "Build module"
+              echo "[*] Build module"
               yarn build
               
-              echo "Generate module package"
+              echo "[*] Generate module package"
               rm -f dist/*.js dist/*.css dist/*.svg
               find dist -type f -name "*.sh" -exec chmod +x {} \;
               mv dist "${dir##*/}"
               tar -czf "${dir##*/}".tar.gz "${dir##*/}"
+              mv "${dir##*/}".tar.gz ../../../modules
               cd -
             fi
           done
+
+      - name: Commit and push changes
+        run: |
+          cd ..
+          git config user.email "xchwarze@gmail.com"
+          git config user.name "CI Bot"
+          git commit -am "Add updated module packages"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/xchwarze/frieren-modules-release.git
+          git push origin master
