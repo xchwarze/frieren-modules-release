@@ -68,9 +68,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          cd ..
-          git config user.email "xchwarze@gmail.com"
-          git config user.name "CI Bot"
+          cd ${{ github.workspace }} 
           git add modules/*
           git commit -am "Add updated module packages"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/xchwarze/frieren-modules-release.git
