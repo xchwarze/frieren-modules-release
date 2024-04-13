@@ -21,7 +21,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: ${{ github.workspace }}/repo
-          persist-credentials: false
 
       - name: Checkout main repository to /build/frieren
         uses: actions/checkout@v4
