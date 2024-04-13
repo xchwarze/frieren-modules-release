@@ -12,31 +12,34 @@ jobs:
         with:
           node-version: '20'
     
-      - name: Checkout current repo
-        uses: actions/checkout@v4
-
-      - name: Setup Workspace
+      - name: Setup directories
         run: |
-          mkdir build
-          cd build
+          mkdir -p ${{ github.workspace }}/build
+          mkdir -p ${{ github.workspace }}/repo
 
-      - name: Checkout main repository
+      - name: Checkout current repo to /repo
+        uses: actions/checkout@v4
+        with:
+          path: ${{ github.workspace }}/repo
+          persist-credentials: false
+
+      - name: Checkout main repository to /build/frieren
         uses: actions/checkout@v4
         with:
           repository: 'xchwarze/frieren'
-          path: 'build/frieren'
+          path: ${{ github.workspace }}/build/frieren
           persist-credentials: false
 
-      - name: Checkout modules repository
+      - name: Checkout modules repository to /build/frieren-modules
         uses: actions/checkout@v4
         with:
           repository: 'xchwarze/frieren-modules'
-          path: 'build/frieren-modules'
+          path: ${{ github.workspace }}/build/frieren-modules
           persist-credentials: false
 
       - name: Build each module
         run: |
-          for dir in build/frieren-modules/*; do
+          for dir in ${{ github.workspace }}/build/frieren-modules/*; do
             if [ -d "$dir" ]; then
               echo "[*] Processing directory $dir"
               cd "$dir"
@@ -44,7 +47,7 @@ jobs:
               echo "[*] Prepare project"
               yarn install --frozen-lockfile
               cp config/.env.release .env
-              echo "VITE_COMMON_ALIAS='../../frieren/frieren-front/src'" >> .env
+              echo "VITE_COMMON_ALIAS='${{ github.workspace }}/build/frieren/src'" >> .env
 
               echo "[*] Build module"
               yarn build
@@ -54,16 +57,16 @@ jobs:
               find dist -type f -name "*.sh" -exec chmod +x {} \;
               mv dist "${dir##*/}"
               tar -czf "${dir##*/}".tar.gz "${dir##*/}"
-              mv "${dir##*/}".tar.gz ../../../modules
+              mv "${dir##*/}".tar.gz ${{ github.workspace }}/repo/modules
               cd -
             fi
           done
 
       - name: Commit and push changes
         run: |
-          cd ${{ github.workspace }} 
+          cd ${{ github.workspace }}/repo
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add modules/*
           git commit -m "Add updated module packages"
-          git push          
+          git push
