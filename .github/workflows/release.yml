@@ -6,22 +6,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:   
-      - name: Checkout current repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-
-      - name: Configure user name and email
-        run: |
-          git config user.name "Sync-Bot"
-          git config user.email "xchwarze@gmail.com"
-
+    steps:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+    
+      - name: Checkout current repo
+        uses: actions/checkout@v4
 
       - name: Setup Workspace
         run: |
@@ -33,18 +25,19 @@ jobs:
         with:
           repository: 'xchwarze/frieren'
           path: 'build/frieren'
+          persist-credentials: false
 
       - name: Checkout modules repository
         uses: actions/checkout@v4
         with:
           repository: 'xchwarze/frieren-modules'
           path: 'build/frieren-modules'
+          persist-credentials: false
 
       - name: Build each module
         run: |
           for dir in build/frieren-modules/*; do
             if [ -d "$dir" ]; then
-              echo -e "\n\n\n-------------------------"
               echo "[*] Processing directory $dir"
               cd "$dir"
 
@@ -69,7 +62,8 @@ jobs:
       - name: Commit and push changes
         run: |
           cd ${{ github.workspace }} 
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add modules/*
-          git commit -am "Add updated module packages"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/xchwarze/frieren-modules-release.git
-          git push origin master
+          git commit -m "Add updated module packages"
+          git push          
