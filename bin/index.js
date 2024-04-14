@@ -67,7 +67,7 @@ const generateModulesJson = async (files, source, build) => {
     );
     await fs.writeJson(
         path.join(process.cwd(), '..', 'json', 'modules.json'),
-        { modules },
+        modules,
         { spaces: 2 }
     );
 
