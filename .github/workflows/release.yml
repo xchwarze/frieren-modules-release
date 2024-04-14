@@ -41,7 +41,7 @@ jobs:
         run: |
           for dir in ${{ github.workspace }}/build/frieren-modules/*; do
             if [ -d "$dir" ]; then
-              echo "[*] Processing directory $dir"
+              echo "[*] Processing directory: $dir"
               cd "$dir"
 
               echo "[*] Prepare project"

@@ -58,8 +58,8 @@ const generateModulesJson = async (directories, build) => {
         chalk.green(`[*] Iterating through ${directories.length} modules...`)
     );
     const modules = await Promise.all(
-        files.map(
-            file => limit(() => processModuleFile(dir, build))
+        directories.map(
+            (dir) => limit(() => processModuleFile(dir, build))
         )
     );
 
