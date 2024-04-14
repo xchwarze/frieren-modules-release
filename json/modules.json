@@ -9,10 +9,10 @@
       "hash",
       "wpa"
     ],
-    "repository": "https://github.com/xchwarze/frieren-modules/wpaonlinecrack",
-    "size": 21392,
-    "sizeHuman": "20.89K",
-    "checksum": "ed408b6773175ae5f66e8e6deffcd896f726dc553f214d6e21ede09fe8c35c7f"
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
+    "size": 21410,
+    "sizeHuman": "20.91K",
+    "checksum": "c0f21753c9d5172ef80e69c5e3e9433e8a57beea17b72e287551c9a4505c1832"
   },
   {
     "name": "tcpdump",
@@ -24,10 +24,10 @@
       "network",
       "tools"
     ],
-    "repository": "https://github.com/xchwarze/frieren-modules/tcpdump",
-    "size": 21573,
-    "sizeHuman": "21.07K",
-    "checksum": "f293eca3a708318d53a816ac0232e00ef5b087e65a235cce0b7c909b579887e7"
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
+    "size": 21583,
+    "sizeHuman": "21.08K",
+    "checksum": "30a5e9c12bbe7e5171658bac5182d4d88d963f295f21e426fbe33a843b724cce"
   },
   {
     "name": "dnsspoof",
@@ -38,10 +38,10 @@
     "keywords": [
       "dns"
     ],
-    "repository": "https://github.com/xchwarze/frieren-modules/dnsspoof",
-    "size": 10900,
-    "sizeHuman": "10.64K",
-    "checksum": "9e139dbb28a5be9f5f02e8704f8b6a7771ef47c80fc06a00a5a39e046bacbb18"
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
+    "size": 10908,
+    "sizeHuman": "10.65K",
+    "checksum": "013b74c0c4c379c66d7b8cba824fd9b2083c6bf4713c292c11315af2e22e6c8e"
   },
   {
     "name": "demo-module",
@@ -52,9 +52,9 @@
     "keywords": [
       "development"
     ],
-    "repository": "https://github.com/xchwarze/frieren-modules/demo",
-    "size": 1176,
-    "sizeHuman": "1.15K",
-    "checksum": "1a852e0ca34632659d4d8e731ea1bfddb58f84968f6cd48c271a5a46182f1ddd"
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
+    "size": 1185,
+    "sizeHuman": "1.16K",
+    "checksum": "284ce40649c64767a8547e027bb2eca2ba3b6eaa9040f8507ac7fbfc36a45c58"
   }
 ]
