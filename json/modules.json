@@ -1,62 +1,60 @@
-{
-  "modules": [
-    {
-      "name": "wpaonlinecrack",
-      "title": "WPA Online Crack",
-      "version": "1.0.0",
-      "description": "Automates wpa hash cracking through online services",
-      "author": "DSR!",
-      "keywords": [
-        "hash",
-        "wpa"
-      ],
-      "repository": "https://github.com/xchwarze/frieren-modules/wpaonlinecrack",
-      "size": 21394,
-      "sizeHuman": "20.89K",
-      "checksum": "67454cf050480069b164120f30d0510cb37f55342dc8a7397038fc5233bd8d41"
-    },
-    {
-      "name": "tcpdump",
-      "title": "TCP Dump",
-      "version": "1.0.0",
-      "description": "TCPDump Web Interface for Simplified Packet Analysis",
-      "author": "DSR!",
-      "keywords": [
-        "network",
-        "tools"
-      ],
-      "repository": "https://github.com/xchwarze/frieren-modules/tcpdump",
-      "size": 21570,
-      "sizeHuman": "21.06K",
-      "checksum": "9d7629083c4bcb1a16a88b10538d3a3cf64832826d5f960464254f9703e4a5c3"
-    },
-    {
-      "name": "dnsspoof",
-      "title": "DNS Spoof",
-      "version": "1.0.0",
-      "description": "Spoof DNS records using dnsmasq",
-      "author": "DSR!",
-      "keywords": [
-        "dns"
-      ],
-      "repository": "https://github.com/xchwarze/frieren-modules/dnsspoof",
-      "size": 10898,
-      "sizeHuman": "10.64K",
-      "checksum": "65e5c4f7ed40a2ce099e9e1acc3091c10465a49fe6f25f2d82f7b1bfae07ec4f"
-    },
-    {
-      "name": "demo-module",
-      "title": "Demo Module",
-      "version": "1.0.0",
-      "description": "Demo for scaffolding a new module",
-      "author": "DSR!",
-      "keywords": [
-        "development"
-      ],
-      "repository": "https://github.com/xchwarze/frieren-modules/demo",
-      "size": 1175,
-      "sizeHuman": "1.15K",
-      "checksum": "85dd57766cba564bec2bc9c4ef24ee21da7176486faaa2831d399d90c46a74d5"
-    }
-  ]
-}
+[
+  {
+    "name": "wpaonlinecrack",
+    "title": "WPA Online Crack",
+    "version": "1.0.0",
+    "description": "Automates wpa hash cracking through online services",
+    "author": "DSR!",
+    "keywords": [
+      "hash",
+      "wpa"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/wpaonlinecrack",
+    "size": 21392,
+    "sizeHuman": "20.89K",
+    "checksum": "ed408b6773175ae5f66e8e6deffcd896f726dc553f214d6e21ede09fe8c35c7f"
+  },
+  {
+    "name": "tcpdump",
+    "title": "TCP Dump",
+    "version": "1.0.0",
+    "description": "TCPDump Web Interface for Simplified Packet Analysis",
+    "author": "DSR!",
+    "keywords": [
+      "network",
+      "tools"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/tcpdump",
+    "size": 21573,
+    "sizeHuman": "21.07K",
+    "checksum": "f293eca3a708318d53a816ac0232e00ef5b087e65a235cce0b7c909b579887e7"
+  },
+  {
+    "name": "dnsspoof",
+    "title": "DNS Spoof",
+    "version": "1.0.0",
+    "description": "Spoof DNS records using dnsmasq",
+    "author": "DSR!",
+    "keywords": [
+      "dns"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/dnsspoof",
+    "size": 10900,
+    "sizeHuman": "10.64K",
+    "checksum": "9e139dbb28a5be9f5f02e8704f8b6a7771ef47c80fc06a00a5a39e046bacbb18"
+  },
+  {
+    "name": "demo-module",
+    "title": "Demo Module",
+    "version": "1.0.0",
+    "description": "Demo for scaffolding a new module",
+    "author": "DSR!",
+    "keywords": [
+      "development"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/demo",
+    "size": 1176,
+    "sizeHuman": "1.15K",
+    "checksum": "1a852e0ca34632659d4d8e731ea1bfddb58f84968f6cd48c271a5a46182f1ddd"
+  }
+]
