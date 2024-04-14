@@ -57,7 +57,7 @@ jobs:
               find dist -type f -name "*.sh" -exec chmod +x {} \;
               mv dist "${dir##*/}"
 
-              echo "[*] Generate module package"
+              echo "[*] Tag and save version"
               VERSION=$(jq -r '.version' package.json)
               tar -czf "${dir##*/}-$VERSION.tar.gz" "${dir##*/}"
               mv "${dir##*/}-$VERSION.tar.gz" ${{ github.workspace }}/repo/modules
