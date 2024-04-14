@@ -26,14 +26,15 @@ const hashFile = async (algorithm, path) => {
     return hashSum.digest('hex');
 };
 
-const processModuleFile = async (file, source, build) => {
-    const baseName = file.replace('.tar.gz', '');
-    const manifestPath = path.join(source, baseName, 'public', 'manifest.json');
+const processModuleFile = async (dir, build) => {
+    const manifestPath = path.join(dir, 'public', 'manifest.json');
     const manifest = await fs.readJson(manifestPath);
 
-    const filePath = path.join(build, file);
+    const expectedFileName = `${manifest.name}-${manifest.version}.tar.gz`;
+    const filePath = path.join(build, expectedFileName);
     const stats = await fs.stat(filePath);
     const moduleChecksum = await hashFile('sha256', filePath);
+
     console.log(
         chalk.green(`    [+] Adding module: ${manifest.name}`)
     );
@@ -47,18 +48,18 @@ const processModuleFile = async (file, source, build) => {
         keywords: manifest.keywords || [],
         repository: manifest.repository || '',
         size: stats.size,
-        sizeHuman: `${(stats.size / 1024).toFixed(2)}K`,
+        sizeHuman: `${(stats.size / 1024).toFixed(2)} KiB`,
         checksum: moduleChecksum,
     };
 };
 
-const generateModulesJson = async (files, source, build) => {
+const generateModulesJson = async (directories, build) => {
     console.log(
-        chalk.green(`[*] Iterating through ${files.length} modules...`)
+        chalk.green(`[*] Iterating through ${directories.length} modules...`)
     );
     const modules = await Promise.all(
         files.map(
-            file => limit(() => processModuleFile(file, source, build))
+            file => limit(() => processModuleFile(dir, build))
         )
     );
 
@@ -80,8 +81,12 @@ const mainAction = async (options) => {
     const { source, build } = options;
 
     try {
-        const files = glob.sync('*.tar.gz', { cwd: build });
-        await generateModulesJson(files, source, build);
+        const directories = glob.sync('*/', {
+            cwd: source,
+            onlyDirectories: true,
+            absolute: true
+        });
+        await generateModulesJson(directories, build);
     } catch (error) {
         console.error(chalk.red('Failed to generate modules file:'), error);
 

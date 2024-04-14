@@ -49,15 +49,19 @@ jobs:
               cp config/.env.release .env
               echo "VITE_COMMON_ALIAS='${{ github.workspace }}/build/frieren/frieren-front/src'" >> .env
 
-              echo "[*] Build module"
+              echo "[*] Build library"
               yarn build
               
               echo "[*] Generate module package"
               rm -f dist/*.js dist/*.css dist/*.svg
               find dist -type f -name "*.sh" -exec chmod +x {} \;
               mv dist "${dir##*/}"
-              tar -czf "${dir##*/}".tar.gz "${dir##*/}"
-              mv "${dir##*/}".tar.gz ${{ github.workspace }}/repo/modules
+
+              echo "[*] Generate module package"
+              VERSION=$(jq -r '.version' package.json)
+              tar -czf "${dir##*/}-$VERSION.tar.gz" "${dir##*/}"
+              mv "${dir##*/}-$VERSION.tar.gz" ${{ github.workspace }}/repo/modules
+
               cd -
             fi
           done
