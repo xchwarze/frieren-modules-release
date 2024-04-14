@@ -10,10 +10,10 @@
         "hash",
         "wpa"
       ],
-      "repository": "https://github.com/xchwarze/",
-      "size": 21377,
-      "sizeHuman": "20.88K",
-      "checksum": "d89bb5e4cb223aad7dda9183730daba54e2b1e46f4dd7d5810de8c0dfe85bcc1"
+      "repository": "https://github.com/xchwarze/frieren-modules/wpaonlinecrack",
+      "size": 21394,
+      "sizeHuman": "20.89K",
+      "checksum": "67454cf050480069b164120f30d0510cb37f55342dc8a7397038fc5233bd8d41"
     },
     {
       "name": "tcpdump",
@@ -25,10 +25,10 @@
         "network",
         "tools"
       ],
-      "repository": "https://github.com/xchwarze/",
-      "size": 21554,
-      "sizeHuman": "21.05K",
-      "checksum": "0d1c5c66463b298a5dfb68b008cd0f3e953838f2e74c589c04536f7fb732b794"
+      "repository": "https://github.com/xchwarze/frieren-modules/tcpdump",
+      "size": 21570,
+      "sizeHuman": "21.06K",
+      "checksum": "9d7629083c4bcb1a16a88b10538d3a3cf64832826d5f960464254f9703e4a5c3"
     },
     {
       "name": "dnsspoof",
@@ -39,24 +39,24 @@
       "keywords": [
         "dns"
       ],
-      "repository": "https://github.com/xchwarze/",
-      "size": 10879,
-      "sizeHuman": "10.62K",
-      "checksum": "8270dfe2e5b4a7a160879e85716483bdf4eb409f97afe1373ba6c09cb0f5e6c8"
+      "repository": "https://github.com/xchwarze/frieren-modules/dnsspoof",
+      "size": 10898,
+      "sizeHuman": "10.64K",
+      "checksum": "65e5c4f7ed40a2ce099e9e1acc3091c10465a49fe6f25f2d82f7b1bfae07ec4f"
     },
     {
       "name": "demo-module",
       "title": "Demo Module",
       "version": "1.0.0",
-      "description": "Demo module for scaffolding a new module",
+      "description": "Demo for scaffolding a new module",
       "author": "DSR!",
       "keywords": [
         "development"
       ],
-      "repository": "https://github.com/xchwarze",
-      "size": 1154,
-      "sizeHuman": "1.13K",
-      "checksum": "14107ec859ea53a5546b6f18db1b679371c0ea73ea43134092cc0d44cb55895b"
+      "repository": "https://github.com/xchwarze/frieren-modules/demo",
+      "size": 1175,
+      "sizeHuman": "1.15K",
+      "checksum": "85dd57766cba564bec2bc9c4ef24ee21da7176486faaa2831d399d90c46a74d5"
     }
   ]
 }
