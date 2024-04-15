@@ -55,6 +55,8 @@ jobs:
               echo "[*] Generate module package"
               rm -f dist/*.js dist/*.css dist/*.svg
               find dist -type f -name "*.sh" -exec chmod +x {} \;
+              find dist -type f -name "*.css.gz" -exec sh -c 'mv "$1" "${1%.css.gz}.css"' _ {} \;
+              find dist -type f -name "*.js.gz" -exec sh -c 'mv "$1" "${1%.js.gz}.js"' _ {} \;
               mv dist "${dir##*/}"
 
               echo "[*] Tag and save version"
