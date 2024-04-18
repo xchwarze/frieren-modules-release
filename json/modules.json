@@ -10,9 +10,9 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 21396,
-    "sizeHuman": "20.89 KiB",
-    "checksum": "af74daf985c5f19ca17fe7a57d5d41d675a8a9b81bf5d2c3d279cc07398c76e6"
+    "size": 21397,
+    "sizeHuman": "20.90 KiB",
+    "checksum": "1b97d4daf24a5dffcd67049152a5e82bc5ed06d2799928529827cdcfa43702b5"
   },
   {
     "name": "tcpdump",
@@ -25,9 +25,9 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 21422,
+    "size": 21424,
     "sizeHuman": "20.92 KiB",
-    "checksum": "65081cf2f81d83317991200f5d6add5b3df128878d6223a179e733bd773cf938"
+    "checksum": "68104703217e17d8fbf25266c93c77d0b0b79c5e27fe1aa23b94f193c1c0a6ab"
   },
   {
     "name": "dnsspoof",
@@ -39,9 +39,9 @@
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 10914,
+    "size": 10912,
     "sizeHuman": "10.66 KiB",
-    "checksum": "34ce8db110bad2d87c952aab90b2980646d58d86bd713e22ac8950ed7675881f"
+    "checksum": "7752cd50b1bd67b675c61c5d8dac006ff1d0fa3832da0a8979e8d63f8b17dbeb"
   },
   {
     "name": "demo",
@@ -55,6 +55,6 @@
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
     "size": 1172,
     "sizeHuman": "1.14 KiB",
-    "checksum": "f87c611aeee57696e97dffc0f5d429873637d39524b13a938c497bdd99aa1fef"
+    "checksum": "6812949d983334816a556d3000b7cf0ee415eaf2c45b092bed250f1046fdea1e"
   }
 ]
