@@ -10,9 +10,9 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 21395,
-    "sizeHuman": "20.89 KiB",
-    "checksum": "31161db94f40d83e244f4695736b6d4f0cad03e223506b74d879c90396cae3a6"
+    "size": 21407,
+    "sizeHuman": "20.91 KiB",
+    "checksum": "0b2e1d13121f7f6a3746fc8a8ce65f4600e87cfad149309a027c3b778f75bf86"
   },
   {
     "name": "usbstorage",
@@ -24,9 +24,9 @@
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 22504,
-    "sizeHuman": "21.98 KiB",
-    "checksum": "8d812b67d0b478067558453306077e7fbdf110bfbd4dbcba0ad0b58d59dfe0e2"
+    "size": 22535,
+    "sizeHuman": "22.01 KiB",
+    "checksum": "51e8ee7d58c1bc0ad16120def7c15e2793f9614b607b25dcec54d28605c27305"
   },
   {
     "name": "tcpdump",
@@ -39,9 +39,9 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 21428,
-    "sizeHuman": "20.93 KiB",
-    "checksum": "ab3afce073f7e212c3457b2cb35cafd57f7374fc8cbb0e3b90bc7e7878475433"
+    "size": 21440,
+    "sizeHuman": "20.94 KiB",
+    "checksum": "8364aa136c6fa70c0603d0e46c762815fa8fd8eedb4da2f942883db67d7098ac"
   },
   {
     "name": "dnsspoof",
@@ -55,7 +55,7 @@
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
     "size": 10913,
     "sizeHuman": "10.66 KiB",
-    "checksum": "87cc916d10e528d215db991e91c1253e18bb3a953871361844a042e9fb3cfc78"
+    "checksum": "d67c1f8644fb4d0bb7cd17625a9f754ddb28d2e9941ad76e121a1fc676bc29fc"
   },
   {
     "name": "demo",
@@ -67,8 +67,8 @@
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 7596,
-    "sizeHuman": "7.42 KiB",
-    "checksum": "98527e841aaac10f1712c0969dc33e93a739eaaff9f0f87c64e824adf44c679b"
+    "size": 7592,
+    "sizeHuman": "7.41 KiB",
+    "checksum": "e1d81177d43915b45e65b0871e8c34a7c3213b4bee9c2e3159be078c0e2ad3be"
   }
 ]
