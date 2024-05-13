@@ -10,9 +10,23 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 21395,
+    "size": 21396,
     "sizeHuman": "20.89 KiB",
-    "checksum": "d81120956c39403899264855c8daf490dbde68b4078562cc2846fa4724fd50e3"
+    "checksum": "7387e4453606a6308882bc22eb77667c3542137004af336666acb14836000134"
+  },
+  {
+    "name": "usbstorage",
+    "title": "SD/USB Storage",
+    "version": "1.0.0",
+    "description": "Add SD/USB Storage Support",
+    "author": "DSR!",
+    "keywords": [
+      "storage"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
+    "size": 22402,
+    "sizeHuman": "21.88 KiB",
+    "checksum": "c45e159578cc9fcaa243204e94e4a6d5c3acb973522bfd50f53f59e5d3962ff7"
   },
   {
     "name": "tcpdump",
@@ -27,7 +41,7 @@
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
     "size": 21426,
     "sizeHuman": "20.92 KiB",
-    "checksum": "dbcd530242f8db7ee2000cc9a5dcafc92889c76f6b6c17123240af4e9235070f"
+    "checksum": "b6a211d29ce0f896f141bd75731fc2cb5032ef785a0f052f83f3a538aa1e7f31"
   },
   {
     "name": "dnsspoof",
@@ -39,9 +53,9 @@
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 10919,
+    "size": 10913,
     "sizeHuman": "10.66 KiB",
-    "checksum": "bebdb59c697b136c9fab45a1a16e060f8445da09645fa5fbadffb58967b5091d"
+    "checksum": "6834b2c1bd4cf00f56a5647daf69201b375584c0292e9f2c055116f2efc35795"
   },
   {
     "name": "demo",
@@ -53,8 +67,8 @@
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 7594,
+    "size": 7596,
     "sizeHuman": "7.42 KiB",
-    "checksum": "92553afefed78abb53a383aa1a2436c8268a9f4923a8ce97514b033517a970c3"
+    "checksum": "75926373c99e713f93214170d0a4d6c592766635a2ef34db5fe55a839357ac68"
   }
 ]
