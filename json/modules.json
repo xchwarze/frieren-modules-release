@@ -10,9 +10,9 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 21407,
-    "sizeHuman": "20.91 KiB",
-    "checksum": "0b2e1d13121f7f6a3746fc8a8ce65f4600e87cfad149309a027c3b778f75bf86"
+    "size": 21419,
+    "sizeHuman": "20.92 KiB",
+    "checksum": "f59a3fdbac13710893bd88fb9b7d94be00399034f7e753266a9cd1ec094b810a"
   },
   {
     "name": "usbstorage",
@@ -24,9 +24,9 @@
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 22535,
-    "sizeHuman": "22.01 KiB",
-    "checksum": "51e8ee7d58c1bc0ad16120def7c15e2793f9614b607b25dcec54d28605c27305"
+    "size": 22951,
+    "sizeHuman": "22.41 KiB",
+    "checksum": "97bd6f43adb5fcf5157d633cd2769a3bf34434202d04ab4d27d9b66a639e0150"
   },
   {
     "name": "tcpdump",
@@ -39,9 +39,9 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 21440,
-    "sizeHuman": "20.94 KiB",
-    "checksum": "8364aa136c6fa70c0603d0e46c762815fa8fd8eedb4da2f942883db67d7098ac"
+    "size": 21588,
+    "sizeHuman": "21.08 KiB",
+    "checksum": "9291fab5e1baff2215cd508c950cd3671b9e32eb5b89c00f10b03ad4f8d007fa"
   },
   {
     "name": "dnsspoof",
@@ -53,9 +53,9 @@
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 10913,
-    "sizeHuman": "10.66 KiB",
-    "checksum": "d67c1f8644fb4d0bb7cd17625a9f754ddb28d2e9941ad76e121a1fc676bc29fc"
+    "size": 10909,
+    "sizeHuman": "10.65 KiB",
+    "checksum": "d0ec6f6aa9207ca37cb59734d5db8e6f182b6afaf6f936027c424c37c895aeda"
   },
   {
     "name": "demo",
@@ -67,8 +67,8 @@
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 7592,
-    "sizeHuman": "7.41 KiB",
-    "checksum": "e1d81177d43915b45e65b0871e8c34a7c3213b4bee9c2e3159be078c0e2ad3be"
+    "size": 7593,
+    "sizeHuman": "7.42 KiB",
+    "checksum": "791b86452738d8c3d63ab76bd6f9e6a9467814d1bf9667d9216c5681d273d047"
   }
 ]
