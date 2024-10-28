@@ -10,9 +10,9 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 21419,
-    "sizeHuman": "20.92 KiB",
-    "checksum": "f59a3fdbac13710893bd88fb9b7d94be00399034f7e753266a9cd1ec094b810a"
+    "size": 21399,
+    "sizeHuman": "20.90 KiB",
+    "checksum": "0d800ebc4627829d8e3380bc9ec6c5ea927027756fbbdc654ab68246abd70e9f"
   },
   {
     "name": "usbstorage",
@@ -24,9 +24,9 @@
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 22951,
-    "sizeHuman": "22.41 KiB",
-    "checksum": "97bd6f43adb5fcf5157d633cd2769a3bf34434202d04ab4d27d9b66a639e0150"
+    "size": 22313,
+    "sizeHuman": "21.79 KiB",
+    "checksum": "70abc39f062d14903d862e90e007e3163e057cf3f14cde7ee378f33512bfd703"
   },
   {
     "name": "tcpdump",
@@ -39,9 +39,23 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 21588,
-    "sizeHuman": "21.08 KiB",
-    "checksum": "9291fab5e1baff2215cd508c950cd3671b9e32eb5b89c00f10b03ad4f8d007fa"
+    "size": 21409,
+    "sizeHuman": "20.91 KiB",
+    "checksum": "d09166bf8638e7a564e7aa4203459d7e82fe123eca35ad79e13ebb6f02bbc879"
+  },
+  {
+    "name": "nmap",
+    "title": "nmap",
+    "version": "1.0.0",
+    "description": "Perform nmap scans on a client!",
+    "author": "m5kro",
+    "keywords": [
+      "nmap"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/nmap",
+    "size": 20866,
+    "sizeHuman": "20.38 KiB",
+    "checksum": "8004ea21b3161ab11ed7948e8976ad7222923bf476d2c0f5971036ed91bb4712"
   },
   {
     "name": "dnsspoof",
@@ -53,9 +67,9 @@
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 10909,
-    "sizeHuman": "10.65 KiB",
-    "checksum": "d0ec6f6aa9207ca37cb59734d5db8e6f182b6afaf6f936027c424c37c895aeda"
+    "size": 10886,
+    "sizeHuman": "10.63 KiB",
+    "checksum": "cea620b57014fd3c0863dd967e46b865c0134c0d9308b8afb451076dce0bf7c9"
   },
   {
     "name": "demo",
@@ -67,8 +81,8 @@
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 7593,
-    "sizeHuman": "7.42 KiB",
-    "checksum": "791b86452738d8c3d63ab76bd6f9e6a9467814d1bf9667d9216c5681d273d047"
+    "size": 7541,
+    "sizeHuman": "7.36 KiB",
+    "checksum": "689b06cdd203e799da231cd349e0db062c294a1d91988c0889830ec5cd3b14e2"
   }
 ]
