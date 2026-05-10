@@ -10,8 +10,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-    
+          node-version: '22'
+
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Setup directories
         run: |
           mkdir -p ${{ github.workspace }}/build
@@ -45,18 +48,16 @@ jobs:
               cd "$dir"
 
               echo "[*] Prepare project"
-              yarn install --frozen-lockfile
+              yarn install --immutable
               cp config/.env.release .env
               echo "VITE_COMMON_ALIAS='${{ github.workspace }}/build/frieren/frieren-front/src'" >> .env
 
               echo "[*] Build library"
-              yarn build
-              
+              yarn build --mode release
+
               echo "[*] Generate module package"
-              rm -f dist/*.js dist/*.css dist/*.svg
+              rm -f dist/*.css dist/*.svg
               find dist -type f -name "*.sh" -exec chmod +x {} \;
-              find dist -type f -name "*.css.gz" -exec sh -c 'mv "$1" "${1%.css.gz}.css"' _ {} \;
-              find dist -type f -name "*.js.gz" -exec sh -c 'mv "$1" "${1%.js.gz}.js"' _ {} \;
               mv dist "${dir##*/}"
 
               echo "[*] Tag and save version"
@@ -71,7 +72,7 @@ jobs:
       - name: Setup and run release script
         run: |
           cd ${{ github.workspace }}/repo/bin
-          yarn install --frozen-lockfile
+          yarn install --immutable
           yarn release --source ${{ github.workspace }}/build/frieren-modules --build ${{ github.workspace }}/repo/modules
 
       - name: Commit and push changes

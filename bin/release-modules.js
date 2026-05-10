@@ -94,26 +94,10 @@ const mainAction = async (options) => {
     }
 };
 
-
-/**
- * Implementation...
- */
-console.log(chalk.yellow(`
- ________  ________      ___      _______       ________      _______       ________      
-|\\  _____\\|\\   __  \\    |\\  \\    |\\  ___ \\     |\\   __  \\    |\\  ___ \\     |\\   ___  \\    
-\\ \\  \\__/ \\ \\  \\|\\  \\   \\ \\  \\   \\ \\   __/|    \\ \\  \\|\\  \\   \\ \\   __/|    \\ \\  \\\\ \\  \\   
- \\ \\   __\\ \\ \\   _  _\\   \\ \\  \\   \\ \\  \\_|/__   \\ \\   _  _\\   \\ \\  \\_|/__   \\ \\  \\\\ \\  \\  
-  \\ \\  \\_|  \\ \\  \\\\  \\|   \\ \\  \\   \\ \\  \\_|\\ \\   \\ \\  \\\\  \\|   \\ \\  \\_|\\ \\   \\ \\  \\\\ \\  \\ 
-   \\ \\__\\    \\ \\__\\\\ _\\    \\ \\__\\   \\ \\_______\\   \\ \\__\\\\ _\\    \\ \\_______\\   \\ \\__\\\\ \\__\\
-    \\|__|     \\|__|\\|__|    \\|__|    \\|_______|    \\|__|\\|__|    \\|_______|    \\|__| \\|__|
-                                                                                          
- Release Frieren Modules - by DSR!
-`));
-
 const program = new Command();
 program
-    .name('release-frieren-modules')
-    .description('CLI to create the modules.json file from a modules folder')
+    .name('release-modules')
+    .description('Generate modules.json from a modules folder')
     .version('1.0.0')
     .requiredOption('-s, --source <path>', 'Path to the source folder', validateDirectory)
     .requiredOption('-b, --build <path>', 'Path to the build folder', validateDirectory)
