@@ -52,7 +52,7 @@ jobs:
               yarn install --immutable
 
               echo "[*] Build library"
-              echo "VITE_COMMON_ALIAS='${{ github.workspace }}/build/frieren/frieren-front/src'" >> config/.env.release
+              printf '\nVITE_COMMON_ALIAS=%s\n' "${{ github.workspace }}/build/frieren/frieren-front/src" >> config/.env.release
               yarn build --mode release
 
               echo "[*] Generate module package"
