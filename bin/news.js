@@ -28,11 +28,12 @@ const addAction = async (options) => {
 
     try {
         const data = await readNewsFile();
-        data.news.unshift({
+        data.news.push({
             date: newsDate,
             title,
             description,
         });
+        data.news.sort((older, newer) => newer.date.localeCompare(older.date));
 
         await saveNewsFile(data);
         console.log(chalk.green(`[+] Added news: "${title}"`));

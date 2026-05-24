@@ -1,7 +1,18 @@
 {
-  "news": [],
+  "news": [
+    {
+      "date": "2026-05-24",
+      "title": "Frieren 1.1.0 Released",
+      "description": "Major update: new Packages manager, wireless module rewrite, terminal rewrite with theme support and autologin, news feed, refreshed UI, and new developer tools."
+    },
+    {
+      "date": "2024-04-22",
+      "title": "Frieren 1.0.0 Released",
+      "description": "First public release. Dashboard, Hardware diagnostics, Login, Modules manager, Settings, Terminal, and Wireless management."
+    }
+  ],
   "lastVersion": {
-    "version": "1.0.0",
-    "comment": "Initial release"
+    "version": "1.1.0",
+    "comment": "New Packages manager, wireless rewrite, terminal rewrite, news feed, UI refresh, and developer tools."
   }
 }
