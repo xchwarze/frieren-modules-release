@@ -1,26 +1,15 @@
 #!/usr/bin/env node
 
+/*
+ * Project: Frieren Framework
+ * Copyright (C) 2026 DSR! <xchwarze@gmail.com>
+ * SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+ * More info at: https://github.com/xchwarze/frieren
+ */
 import { Command } from 'commander';
 import chalk from 'chalk';
-import fs from 'fs-extra';
-import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const NEWS_PATH = path.join(__dirname, '..', 'json', 'news.json');
-
-const readNewsFile = async () => {
-    if (await fs.pathExists(NEWS_PATH)) {
-        return fs.readJson(NEWS_PATH);
-    }
-
-    return { news: [], lastVersion: { version: '0.0.0', comment: '' } };
-};
-
-const saveNewsFile = async (data) => {
-    await fs.writeJson(NEWS_PATH, data, { spaces: 2 });
-    console.log(chalk.green(`[+] Saved to ${NEWS_PATH}`));
-};
+import { readNewsFile, saveNewsFile } from './news-store.js';
 
 const addAction = async (options) => {
     const { title, description, date } = options;
@@ -43,27 +32,15 @@ const addAction = async (options) => {
     }
 };
 
-const setVersionAction = async (options) => {
-    const { version, comment } = options;
-
-    try {
-        const data = await readNewsFile();
-        data.lastVersion = { version, comment: comment || '' };
-
-        await saveNewsFile(data);
-        console.log(chalk.green(`[+] Set latest version: ${version}`));
-    } catch (error) {
-        console.error(chalk.red('[!] Failed to set version:'), error);
-        process.exit(1);
-    }
-};
-
 const listAction = async () => {
     try {
         const data = await readNewsFile();
 
         console.log(chalk.cyan('\n[*] Latest Version'));
         console.log(`    ${data.lastVersion.version} — ${data.lastVersion.comment || '(no comment)'}`);
+        if (data.lastVersion.updateUrl) {
+            console.log(`    URL: ${data.lastVersion.updateUrl}`);
+        }
 
         console.log(chalk.cyan(`\n[*] News (${data.news.length} entries)`));
         if (data.news.length === 0) {
@@ -103,7 +80,7 @@ const removeAction = async (options) => {
 const program = new Command();
 program
     .name('frieren-news')
-    .description('Manage news.json for Frieren dashboard')
+    .description('Manage news entries for the Frieren dashboard')
     .version('1.0.0');
 
 program
@@ -113,13 +90,6 @@ program
     .requiredOption('-d, --description <description>', 'News description')
     .option('--date <date>', 'Date in YYYY-MM-DD format (defaults to today)')
     .action(addAction);
-
-program
-    .command('set-version')
-    .description('Set the latest version info')
-    .requiredOption('-v, --version <version>', 'Version number')
-    .option('-c, --comment <comment>', 'Version comment')
-    .action(setVersionAction);
 
 program
     .command('list')
