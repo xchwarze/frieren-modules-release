@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-05-28",
+      "title": "Frieren 1.2.0 Released",
+      "description": "Polish and reliability update: skeleton loaders, toast feedback everywhere, system update from dashboard, cache busting, backend security hardening, and major frontend/backend refactors."
+    },
+    {
       "date": "2026-05-24",
       "title": "Frieren 1.1.0 Released",
       "description": "Major update: new Packages manager, wireless module rewrite, terminal rewrite with theme support and autologin, news feed, refreshed UI, and new developer tools."
@@ -12,7 +17,8 @@
     }
   ],
   "lastVersion": {
-    "version": "1.1.0",
-    "comment": "New Packages manager, wireless rewrite, terminal rewrite, news feed, UI refresh, and developer tools."
+    "version": "1.2.0",
+    "comment": "Polish and reliability update: skeleton loaders, toast feedback, system update from dashboard, cache busting, security hardening, and major refactors.",
+    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.2-r1_all.ipk"
   }
 }
