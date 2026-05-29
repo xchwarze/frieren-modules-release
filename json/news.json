@@ -2,6 +2,11 @@
   "news": [
     {
       "date": "2026-05-28",
+      "title": "Scan Module Complete",
+      "description": "The scanning module is now complete and available as a closed beta exclusively for Patreon supporters. More info: https://www.patreon.com/posts/159487798"
+    },
+    {
+      "date": "2026-05-28",
       "title": "Frieren 1.2.0 Released",
       "description": "Polish and reliability update: skeleton loaders, toast feedback everywhere, system update from dashboard, cache busting, backend security hardening, and major frontend/backend refactors."
     },
