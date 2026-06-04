@@ -1,9 +1,14 @@
 {
   "news": [
     {
+      "date": "2026-06-04",
+      "title": "Frieren 1.3.0 Released",
+      "description": "Module dependency installs rebuilt on background tasks with live logs, a new shared loading component, HTML support in news, an end-to-end test suite, and backend hardening."
+    },
+    {
       "date": "2026-05-28",
       "title": "Scan Module Complete",
-      "description": "The scanning module is now complete and available as a closed beta exclusively for Patreon supporters. More info: https://www.patreon.com/posts/159487798"
+      "description": "The scanning module is now complete and available as a closed beta exclusively for Patreon supporters. More info: <a href=\"https://www.patreon.com/posts/159487798\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon post</a>"
     },
     {
       "date": "2026-05-28",
@@ -22,8 +27,8 @@
     }
   ],
   "lastVersion": {
-    "version": "1.2.0",
-    "comment": "Polish and reliability update: skeleton loaders, toast feedback, system update from dashboard, cache busting, security hardening, and major refactors.",
-    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.2-r1_all.ipk"
+    "version": "1.3.0",
+    "comment": "Module dependency installs rebuilt on background tasks with live logs, shared loading component, HTML news support, e2e test suite, and backend hardening.",
+    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.3-r1_all.ipk"
   }
 }
