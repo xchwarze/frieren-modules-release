@@ -2,7 +2,7 @@
   {
     "name": "wpaonlinecrack",
     "title": "WPA Online Crack",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Automates wpa hash cracking through online services",
     "author": "DSR!",
     "keywords": [
@@ -10,28 +10,43 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 9392,
-    "sizeHuman": "9.17 KiB",
-    "checksum": "ee548fc28e2dcc0de356ce9361e319eefe6a30145c14bab0120e01e215587378"
+    "size": 12137,
+    "sizeHuman": "11.85 KiB",
+    "checksum": "e67fe74a9793fd0e71890e04dcd5f2d87edc674b1e8ce2ae84bee513ec88cfed"
+  },
+  {
+    "name": "wigle",
+    "title": "WiGLE",
+    "version": "1.0.0",
+    "description": "WiFi network lookup via WiGLE.net database",
+    "author": "DSR!",
+    "keywords": [
+      "wifi",
+      "recon"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wigle",
+    "size": 10599,
+    "sizeHuman": "10.35 KiB",
+    "checksum": "a0e98e8379ac7afce6902ae1942a968cfa50a0a19b60fd0e2e8104ad2eb8a034"
   },
   {
     "name": "usbstorage",
     "title": "SD/USB Storage",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Add SD/USB Storage Support",
     "author": "DSR!",
     "keywords": [
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 10633,
-    "sizeHuman": "10.38 KiB",
-    "checksum": "8d454a5aacc7696e21e8eb42981af2c29360ddcc3f571af722ff3c42f49f025c"
+    "size": 11611,
+    "sizeHuman": "11.34 KiB",
+    "checksum": "2657ba9dc237574075328978c9d023ec680d9506186e6da3487635622eb244b1"
   },
   {
     "name": "tcpdump",
     "title": "TCP Dump",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "TCPDump Web Interface for Simplified Packet Analysis",
     "author": "DSR!",
     "keywords": [
@@ -39,50 +54,65 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 9605,
-    "sizeHuman": "9.38 KiB",
-    "checksum": "d5a5c1937816cf74d955bfb7ac5f898ff7f03fb09aeb671a83092d1fc061c4bd"
+    "size": 10735,
+    "sizeHuman": "10.48 KiB",
+    "checksum": "0b09940a74f7cdc13ed6c5f9f2cfd2343fcb7a74ee7c3c8a593ee9472fde16af"
   },
   {
     "name": "nmap",
     "title": "nmap",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Perform nmap scans on a client!",
     "author": "m5kro",
     "keywords": [
       "nmap"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/nmap",
-    "size": 9044,
-    "sizeHuman": "8.83 KiB",
-    "checksum": "b9443509fc1c72d113fb348fb438c189bc180d77c2fedabf2b939a8cacdef5f5"
+    "size": 10008,
+    "sizeHuman": "9.77 KiB",
+    "checksum": "7bf9219492fc7c65f38cf180890a53c3b31a788b15236ce9638c323d90461b72"
+  },
+  {
+    "name": "hcxdumptool",
+    "title": "hcxdumptool",
+    "version": "1.0.0",
+    "description": "WiFi handshake capture using hcxdumptool",
+    "author": "DSR!",
+    "keywords": [
+      "wifi",
+      "handshake"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/hcxdumptool",
+    "size": 11145,
+    "sizeHuman": "10.88 KiB",
+    "checksum": "8279d5752053460cd5d67ca3ba305bb6d0446ce13a4848c250257dddafe1a29d"
   },
   {
     "name": "dnsspoof",
     "title": "DNS Spoof",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Spoof DNS records using dnsmasq",
     "author": "DSR!",
     "keywords": [
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 6307,
-    "sizeHuman": "6.16 KiB",
-    "checksum": "75d66a8cf8f38eb00697d9d66d2a04aff164471447c6007827ee26ef3b91855a"
+    "size": 6968,
+    "sizeHuman": "6.80 KiB",
+    "checksum": "1203f82f19606dc0737b4913e523ee81616c79b3fa581c846403035deb2d7e97"
   },
   {
     "name": "demo",
     "title": "Demo Module",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Demo module for test UMD logic",
     "author": "DSR!",
     "keywords": [
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 5315,
-    "sizeHuman": "5.19 KiB",
-    "checksum": "2567eac20134a03ee72b1dacaa2dc9122a47ad7384ecdf68ff0e061d0835cd12"
+    "size": 5599,
+    "sizeHuman": "5.47 KiB",
+    "checksum": "4f2749bc20fc5635af548032eb327177de22db1325dc0f659ff83e4d713bfc0a"
   }
 ]
