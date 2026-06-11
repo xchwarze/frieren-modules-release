@@ -2,7 +2,7 @@
   {
     "name": "wpaonlinecrack",
     "title": "WPA Online Crack",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Automates wpa hash cracking through online services",
     "author": "DSR!",
     "keywords": [
@@ -10,14 +10,14 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 12133,
-    "sizeHuman": "11.85 KiB",
-    "checksum": "5d5b46edb5080193cd0160f80ea28183788217665318e7ff5cf2840c2d26ed73"
+    "size": 13464,
+    "sizeHuman": "13.15 KiB",
+    "checksum": "0ba22971da7535c8c9a3d02b70c1eec207383ac2c5d63b416cefec02c7d0a8b7"
   },
   {
     "name": "wigle",
     "title": "WiGLE",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "WiFi network lookup via WiGLE.net database",
     "author": "DSR!",
     "keywords": [
@@ -25,28 +25,28 @@
       "recon"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wigle",
-    "size": 12355,
-    "sizeHuman": "12.07 KiB",
-    "checksum": "114919054079142e41fbb77632a77aef52b312c971c2c6db34ea7ac9f286d423"
+    "size": 12848,
+    "sizeHuman": "12.55 KiB",
+    "checksum": "b9e2f65824343c578715677e4882c86a4492f3726e8ea186d25cf3057ded4855"
   },
   {
     "name": "usbstorage",
     "title": "SD/USB Storage",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Add SD/USB Storage Support",
     "author": "DSR!",
     "keywords": [
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 11612,
-    "sizeHuman": "11.34 KiB",
-    "checksum": "7ce98367d903313dbd0a34b77dcaf20fbc8ecb261a7e8dc15673e6f1a047e4d7"
+    "size": 11402,
+    "sizeHuman": "11.13 KiB",
+    "checksum": "c8de91154f4e26e8c325ada9494d1419b6fbea1648e4da8f5cef3067c56f14c6"
   },
   {
     "name": "tcpdump",
     "title": "TCP Dump",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "TCPDump Web Interface for Simplified Packet Analysis",
     "author": "DSR!",
     "keywords": [
@@ -54,28 +54,43 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 10735,
-    "sizeHuman": "10.48 KiB",
-    "checksum": "905bc0e9459992ade79ebb866b3c66121a989a6b20f92a7dd80aaa96025b2d23"
+    "size": 11805,
+    "sizeHuman": "11.53 KiB",
+    "checksum": "23c302f639c60b1804f8d19a3ca9fa74c6c3d5e0ce683a2a3efa95f647358319"
+  },
+  {
+    "name": "proxyhelper",
+    "title": "Proxy Helper",
+    "version": "1.0.0",
+    "description": "Route traffic through Burp Suite proxy via iptables",
+    "author": "DSR!",
+    "keywords": [
+      "proxy",
+      "iptables"
+    ],
+    "repository": "https://github.com/xchwarze/frieren-modules/tree/master/proxyhelper",
+    "size": 9126,
+    "sizeHuman": "8.91 KiB",
+    "checksum": "4985159824775dd801be739863ffc29e5d4caf82be35e151066c482f342eeae3"
   },
   {
     "name": "nmap",
     "title": "nmap",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Web GUI for Nmap, the most popular network mapping tool.",
     "author": "m5kro",
     "keywords": [
       "nmap"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/nmap",
-    "size": 9888,
-    "sizeHuman": "9.66 KiB",
-    "checksum": "db97dd5dd65f317f735965501d77b012509d0832054f3a4d2c2689631351bcbf"
+    "size": 10980,
+    "sizeHuman": "10.72 KiB",
+    "checksum": "42829ebb9e06b98d05f278d507ce5aa84e8f9745a6e055fa8a9879de9d2ee321"
   },
   {
     "name": "hcxdumptool",
     "title": "hcxdumptool",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "WiFi handshake capture using hcxdumptool",
     "author": "DSR!",
     "keywords": [
@@ -83,36 +98,36 @@
       "handshake"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/hcxdumptool",
-    "size": 12364,
-    "sizeHuman": "12.07 KiB",
-    "checksum": "56c9bc8f88ae98c22ac7b1b713069407f7da53467475482f6a16d1697a268cfc"
+    "size": 13667,
+    "sizeHuman": "13.35 KiB",
+    "checksum": "49ab511ebb1bdff05654d74f123d8148357e26ee5fd4dfd11a1c4043ea7325ad"
   },
   {
     "name": "dnsspoof",
     "title": "DNS Spoof",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Spoof DNS records using dnsmasq",
     "author": "DSR!",
     "keywords": [
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 6968,
-    "sizeHuman": "6.80 KiB",
-    "checksum": "6f290290ba7e425ffe5df621d3ea38cd1a082a41f7e4b9a670e7efcc4bc1643f"
+    "size": 7037,
+    "sizeHuman": "6.87 KiB",
+    "checksum": "f920319316099e7503f49e0c988b8f5fb5845a4a3c62c1bcd1db56758039d749"
   },
   {
     "name": "demo",
     "title": "Demo Module",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Demo module for test UMD logic",
     "author": "DSR!",
     "keywords": [
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 5601,
-    "sizeHuman": "5.47 KiB",
-    "checksum": "f32b61f5f46b603b61c257612d415388b49149b1f3478ee29c2960bacc7b59db"
+    "size": 5806,
+    "sizeHuman": "5.67 KiB",
+    "checksum": "3f80faf1502fc9a5a6da6890a00c41545f2eed93f1bfec9b7cd83b1e4dc92ab9"
   }
 ]
