@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-06-10",
+      "title": "Frieren 1.4.0 Released",
+      "description": "Biggest update yet: a new Network module (interfaces, DHCP, diagnostics), an init.d service manager, a redesigned UI built on a custom icon font and shared components, deep-linkable tabs, module search and pagination, and a round of API security hardening."
+    },
+    {
       "date": "2026-06-04",
       "title": "Frieren 1.3.0 Released",
       "description": "Module dependency installs rebuilt on background tasks with live logs, a new shared loading component, HTML support in news, an end-to-end test suite, and backend hardening."
@@ -27,8 +32,8 @@
     }
   ],
   "lastVersion": {
-    "version": "1.3.0",
-    "comment": "Module dependency installs rebuilt on background tasks with live logs, shared loading component, HTML news support, e2e test suite, and backend hardening.",
-    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.3-r1_all.ipk"
+    "version": "1.4.0",
+    "comment": "New Network module and init.d service manager, redesigned UI with a custom icon font and shared components, deep-linkable tabs, module search and pagination, and API security hardening.",
+    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.4-r1_all.ipk"
   }
 }
