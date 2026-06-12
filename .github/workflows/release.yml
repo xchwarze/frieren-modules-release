@@ -47,6 +47,13 @@ jobs:
               echo "[*] Processing directory: $dir"
               cd "$dir"
 
+              echo "[*] Failsafe: package.json is the source of truth — sync version + description into manifest"
+              if [ -f public/manifest.json ]; then
+                jq --arg v "$(jq -r '.version' package.json)" --arg d "$(jq -r '.description' package.json)" \
+                  '.version = $v | .description = $d' public/manifest.json > public/manifest.json.tmp \
+                  && mv public/manifest.json.tmp public/manifest.json
+              fi
+
               echo "[*] Prepare project"
               corepack enable
               yarn install --immutable
