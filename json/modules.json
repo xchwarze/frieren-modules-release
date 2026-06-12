@@ -1,8 +1,8 @@
 [
   {
     "name": "wpaonlinecrack",
-    "title": "WPA Online Crack",
-    "version": "1.1.1",
+    "title": "WPA Crack",
+    "version": "1.1.2",
     "description": "Automates wpa hash cracking through online services",
     "author": "DSR!",
     "keywords": [
@@ -10,9 +10,9 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 13463,
-    "sizeHuman": "13.15 KiB",
-    "checksum": "444ddcfc99de32f426e0ae247e8ef676d78a00394159cd65e43af2747cd08d96"
+    "size": 14701,
+    "sizeHuman": "14.36 KiB",
+    "checksum": "107b22828dc24b0725160c6f62ba33cda4b250c9c26ff7b29ef725ea21813557"
   },
   {
     "name": "wigle",
@@ -25,9 +25,9 @@
       "recon"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wigle",
-    "size": 12860,
+    "size": 12858,
     "sizeHuman": "12.56 KiB",
-    "checksum": "a06a6c583d57985e0a942671a9729b816b14380aa4e657ac40c6a382fd9c1372"
+    "checksum": "25bd1053694a11249ba220265e7c72ddb28625c838eb93c15b5664f0e2f5b553"
   },
   {
     "name": "usbstorage",
@@ -39,9 +39,9 @@
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 11400,
+    "size": 11401,
     "sizeHuman": "11.13 KiB",
-    "checksum": "541f9844e2d5871bf177d1c6cde16007f697fbf3b40e8c3248cf362711256931"
+    "checksum": "27759c86335faf0b7d6da306dd87a479844caedc677109df00a4de654e395640"
   },
   {
     "name": "tcpdump",
@@ -54,9 +54,9 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 11805,
+    "size": 11809,
     "sizeHuman": "11.53 KiB",
-    "checksum": "920a5c93a8dcac3bc1c1bc573af11db4a7020ae3b6587f70291b9e02299a8a18"
+    "checksum": "558e2558ce7b80ed1d2af9799e526cebac156c45a33529244f6dbb3131e878dc"
   },
   {
     "name": "proxyhelper",
@@ -71,26 +71,26 @@
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/proxyhelper",
     "size": 9126,
     "sizeHuman": "8.91 KiB",
-    "checksum": "4aafd035f92107d2f6ba83e3e1d9dfc1a82809e31b05b13c2c41ed1301928116"
+    "checksum": "3abad24575100d4f0e9471bd4506cca1b2f336d165a9a6da8de6f8ebc419ca92"
   },
   {
     "name": "nmap",
     "title": "nmap",
     "version": "1.1.1",
-    "description": "Web GUI for Nmap, the most popular network mapping tool.",
+    "description": "Perform nmap scans on a client!",
     "author": "m5kro",
     "keywords": [
       "nmap"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/nmap",
-    "size": 10985,
-    "sizeHuman": "10.73 KiB",
-    "checksum": "073d67af1eb50b8b0dd2e8d6e7b3b4d4d21c8e82bc21c2b999958630c9ba202e"
+    "size": 10976,
+    "sizeHuman": "10.72 KiB",
+    "checksum": "93b4591fa1c129d7523a030730e32812fe9ea161045f9ae43144c93972b312b9"
   },
   {
     "name": "hcxdumptool",
     "title": "hcxdumptool",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "WiFi handshake capture using hcxdumptool",
     "author": "DSR!",
     "keywords": [
@@ -98,9 +98,9 @@
       "handshake"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/hcxdumptool",
-    "size": 13662,
-    "sizeHuman": "13.34 KiB",
-    "checksum": "650e943735a2efc1dc537fbcb855feb3a8e421056128625941e24933e189065b"
+    "size": 20015,
+    "sizeHuman": "19.55 KiB",
+    "checksum": "dc9767c3e5d793942326255c898841444ad73be1aa491e730cec4998ca08f51b"
   },
   {
     "name": "dnsspoof",
@@ -112,9 +112,9 @@
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 7038,
-    "sizeHuman": "6.87 KiB",
-    "checksum": "308b38ecafbc1af951702389f6a2406b4be8bb561da3df3a16a2c9457e21f686"
+    "size": 7049,
+    "sizeHuman": "6.88 KiB",
+    "checksum": "3abfe2b758f1aabc50c825dda6382ea8245722a4181b9e8d60a3574f8b8ae05e"
   },
   {
     "name": "demo",
@@ -126,8 +126,8 @@
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 5805,
+    "size": 5803,
     "sizeHuman": "5.67 KiB",
-    "checksum": "4cc5b8a1e11901a5d937d0d034701eac9186a681957eeba692d40f17457453dd"
+    "checksum": "61565cda4c28fe1d812c5bf6bec9c4d64d34a451c7bb4c3456b4f4e9d8ba4b3e"
   }
 ]
