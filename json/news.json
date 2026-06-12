@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "date": "2026-06-12",
+      "title": "Frieren 1.4.1 Released",
+      "description": "Patch release: a reusable read-only console any module can embed (operator-themed, ANSI-aware), terminal color-contrast (WCAG) polish, a single-source app version, deep-linkable module tabs, and connectivity-check fixes."
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Firewall Module (Private)",
+      "description": "New private Firewall module that isolates the captive/portal interface from the LAN and enforces redirect policy — the groundwork for captive-portal attacks such as evilportal. Available as a private module."
+    },
+    {
       "date": "2026-06-10",
       "title": "Frieren 1.4.0 Released",
       "description": "Biggest update yet: a new Network module (interfaces, DHCP, diagnostics), an init.d service manager, a redesigned UI built on a custom icon font and shared components, deep-linkable tabs, module search and pagination, and a round of API security hardening."
@@ -32,8 +42,8 @@
     }
   ],
   "lastVersion": {
-    "version": "1.4.0",
-    "comment": "New Network module and init.d service manager, redesigned UI with a custom icon font and shared components, deep-linkable tabs, module search and pagination, and API security hardening.",
-    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.4-r1_all.ipk"
+    "version": "1.4.1",
+    "comment": "Reusable read-only console for modules, terminal WCAG color polish, single-source app version, deep-linkable module tabs, and connectivity-check fixes.",
+    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.4.1-r1_all.ipk"
   }
 }
