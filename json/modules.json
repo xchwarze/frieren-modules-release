@@ -2,7 +2,7 @@
   {
     "name": "wpaonlinecrack",
     "title": "WPA Crack",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Automates wpa hash cracking through online services",
     "author": "DSR!",
     "keywords": [
@@ -10,9 +10,9 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 14701,
-    "sizeHuman": "14.36 KiB",
-    "checksum": "107b22828dc24b0725160c6f62ba33cda4b250c9c26ff7b29ef725ea21813557"
+    "size": 16425,
+    "sizeHuman": "16.04 KiB",
+    "checksum": "c28c3dfb257a73faf030ba6823273862fde407ef5f73751e9893b98ee06b39d7"
   },
   {
     "name": "wigle",
@@ -25,9 +25,9 @@
       "recon"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wigle",
-    "size": 12858,
-    "sizeHuman": "12.56 KiB",
-    "checksum": "25bd1053694a11249ba220265e7c72ddb28625c838eb93c15b5664f0e2f5b553"
+    "size": 12896,
+    "sizeHuman": "12.59 KiB",
+    "checksum": "b6621247e6351b9897e4fcc775069942b5db3fb4913f925f3df526f483e4b96f"
   },
   {
     "name": "usbstorage",
@@ -39,9 +39,9 @@
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 11401,
+    "size": 11399,
     "sizeHuman": "11.13 KiB",
-    "checksum": "27759c86335faf0b7d6da306dd87a479844caedc677109df00a4de654e395640"
+    "checksum": "e3f8848fee2b405d70d7ff4d94cfd5b525f5e37525387489f7ba57978a797353"
   },
   {
     "name": "tcpdump",
@@ -54,9 +54,9 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 11809,
-    "sizeHuman": "11.53 KiB",
-    "checksum": "558e2558ce7b80ed1d2af9799e526cebac156c45a33529244f6dbb3131e878dc"
+    "size": 14491,
+    "sizeHuman": "14.15 KiB",
+    "checksum": "7f1656394da9f1996fd4ee839dc09a76ec8f4797688a2ec66f7d7a5a4926d2f2"
   },
   {
     "name": "proxyhelper",
@@ -69,9 +69,9 @@
       "iptables"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/proxyhelper",
-    "size": 9126,
-    "sizeHuman": "8.91 KiB",
-    "checksum": "3abad24575100d4f0e9471bd4506cca1b2f336d165a9a6da8de6f8ebc419ca92"
+    "size": 9166,
+    "sizeHuman": "8.95 KiB",
+    "checksum": "5996174dc6d290806599fcab4f76b1fd8e6e421752284d7961f42852e2c7d3a4"
   },
   {
     "name": "nmap",
@@ -83,9 +83,9 @@
       "nmap"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/nmap",
-    "size": 10976,
-    "sizeHuman": "10.72 KiB",
-    "checksum": "93b4591fa1c129d7523a030730e32812fe9ea161045f9ae43144c93972b312b9"
+    "size": 11086,
+    "sizeHuman": "10.83 KiB",
+    "checksum": "65895a7c1b3d23e768d446764a0ca3a1f81d7512ea750b1581f584b52c0b9fbe"
   },
   {
     "name": "hcxdumptool",
@@ -98,9 +98,9 @@
       "handshake"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/hcxdumptool",
-    "size": 20015,
+    "size": 20019,
     "sizeHuman": "19.55 KiB",
-    "checksum": "dc9767c3e5d793942326255c898841444ad73be1aa491e730cec4998ca08f51b"
+    "checksum": "07b8b9ce4769a1d07507884accf167c6c2c8b0f7c9da2df212677ca51368d274"
   },
   {
     "name": "dnsspoof",
@@ -112,9 +112,9 @@
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 7049,
-    "sizeHuman": "6.88 KiB",
-    "checksum": "3abfe2b758f1aabc50c825dda6382ea8245722a4181b9e8d60a3574f8b8ae05e"
+    "size": 8213,
+    "sizeHuman": "8.02 KiB",
+    "checksum": "de4d93322b40df1d30add4102213f1b7ddbf4343374701bcfeb2298815f8c766"
   },
   {
     "name": "demo",
@@ -126,8 +126,8 @@
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 5803,
-    "sizeHuman": "5.67 KiB",
-    "checksum": "61565cda4c28fe1d812c5bf6bec9c4d64d34a451c7bb4c3456b4f4e9d8ba4b3e"
+    "size": 5846,
+    "sizeHuman": "5.71 KiB",
+    "checksum": "cd8ae0f220391c0455a1b94ea5bc3e5eb5b5141e52db24bbe29035de6a9012cb"
   }
 ]
