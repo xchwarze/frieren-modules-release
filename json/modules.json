@@ -10,9 +10,11 @@
       "wpa"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack",
-    "size": 16425,
-    "sizeHuman": "16.04 KiB",
-    "checksum": "c28c3dfb257a73faf030ba6823273862fde407ef5f73751e9893b98ee06b39d7"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/wpaonlinecrack#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 17111,
+    "sizeHuman": "16.71 KiB",
+    "checksum": "82dd897437f674cee16106ba787878fe9fa64753171c3f83a14611387d6fdd87"
   },
   {
     "name": "wigle",
@@ -25,9 +27,11 @@
       "recon"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/wigle",
-    "size": 12896,
-    "sizeHuman": "12.59 KiB",
-    "checksum": "b6621247e6351b9897e4fcc775069942b5db3fb4913f925f3df526f483e4b96f"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/wigle#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 13108,
+    "sizeHuman": "12.80 KiB",
+    "checksum": "a79648707393ea412274f99f1cd6347e57d05979ba79b8a10d65fde35545ea53"
   },
   {
     "name": "usbstorage",
@@ -39,9 +43,11 @@
       "storage"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage",
-    "size": 11399,
-    "sizeHuman": "11.13 KiB",
-    "checksum": "e3f8848fee2b405d70d7ff4d94cfd5b525f5e37525387489f7ba57978a797353"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/usbstorage#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 13444,
+    "sizeHuman": "13.13 KiB",
+    "checksum": "f5c301586602542bf53c4dae03fb92def8fbccc4f9f1e4af71cf44a5f5fcbfb2"
   },
   {
     "name": "tcpdump",
@@ -54,9 +60,11 @@
       "tools"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump",
-    "size": 14491,
-    "sizeHuman": "14.15 KiB",
-    "checksum": "7f1656394da9f1996fd4ee839dc09a76ec8f4797688a2ec66f7d7a5a4926d2f2"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/tcpdump#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 14725,
+    "sizeHuman": "14.38 KiB",
+    "checksum": "6cafa5a8edf1f98202a95a3833eb9af9b4acf521b686bbfe04cb35ad23f9de30"
   },
   {
     "name": "proxyhelper",
@@ -69,9 +77,11 @@
       "iptables"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/proxyhelper",
-    "size": 9166,
-    "sizeHuman": "8.95 KiB",
-    "checksum": "5996174dc6d290806599fcab4f76b1fd8e6e421752284d7961f42852e2c7d3a4"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/proxyhelper#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 10508,
+    "sizeHuman": "10.26 KiB",
+    "checksum": "ab04a0496882e3dbfa57d2fbb60095f11087374b950c0e17634e3a13fc7bc6c1"
   },
   {
     "name": "nmap",
@@ -83,9 +93,11 @@
       "nmap"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/nmap",
-    "size": 11086,
-    "sizeHuman": "10.83 KiB",
-    "checksum": "65895a7c1b3d23e768d446764a0ca3a1f81d7512ea750b1581f584b52c0b9fbe"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/nmap#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 14457,
+    "sizeHuman": "14.12 KiB",
+    "checksum": "111644c2809852c4dad4f983da2fcfab857409447be51c55764bf076d6f5d432"
   },
   {
     "name": "hcxdumptool",
@@ -98,9 +110,11 @@
       "handshake"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/hcxdumptool",
-    "size": 20019,
-    "sizeHuman": "19.55 KiB",
-    "checksum": "07b8b9ce4769a1d07507884accf167c6c2c8b0f7c9da2df212677ca51368d274"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/hcxdumptool#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 20551,
+    "sizeHuman": "20.07 KiB",
+    "checksum": "d6f03ea0883185290d66f2f5409a3617a0eac1681ece12d2f220f59e7dfd46e8"
   },
   {
     "name": "dnsspoof",
@@ -112,9 +126,11 @@
       "dns"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof",
-    "size": 8213,
-    "sizeHuman": "8.02 KiB",
-    "checksum": "de4d93322b40df1d30add4102213f1b7ddbf4343374701bcfeb2298815f8c766"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/dnsspoof#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 10162,
+    "sizeHuman": "9.92 KiB",
+    "checksum": "3d7211c7009035f2a2e8b48a6d1b0759e82816a706d7605dd0b7066047c73b60"
   },
   {
     "name": "demo",
@@ -126,8 +142,10 @@
       "development"
     ],
     "repository": "https://github.com/xchwarze/frieren-modules/tree/master/demo",
-    "size": 5846,
-    "sizeHuman": "5.71 KiB",
-    "checksum": "cd8ae0f220391c0455a1b94ea5bc3e5eb5b5141e52db24bbe29035de6a9012cb"
+    "documentation": "https://github.com/xchwarze/frieren-modules/tree/master/demo#readme",
+    "minPanelVersion": "1.0.0",
+    "size": 5926,
+    "sizeHuman": "5.79 KiB",
+    "checksum": "dbad7c0f4f8db51dd7bc337daa12b9a812fe8afb2525dffe44f79a2ae685001e"
   }
 ]
