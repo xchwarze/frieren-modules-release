@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-07-07",
+      "title": "Frieren 1.4.2 Released",
+      "description": "Patch release: module manifests grow to schema v2 (authors, documentation, license, minimum panel version) with a front-end minimum-version gate that blocks modules needing a newer panel, optional tab count badges, wireless interface-role fixes on edit, UI-layout compliance fixes, and expanded docs. More info: <a href=\"https://github.com/xchwarze/frieren/releases/tag/1.4.2\" target=\"_blank\" rel=\"noopener noreferrer\">Release notes</a>"
+    },
+    {
       "date": "2026-06-12",
       "title": "Frieren 1.4.1 Released",
       "description": "Patch release: a reusable read-only console any module can embed (operator-themed, ANSI-aware), terminal color-contrast (WCAG) polish, a single-source app version, deep-linkable module tabs, and connectivity-check fixes."
@@ -42,8 +47,8 @@
     }
   ],
   "lastVersion": {
-    "version": "1.4.1",
-    "comment": "Reusable read-only console for modules, terminal WCAG color polish, single-source app version, deep-linkable module tabs, and connectivity-check fixes.",
-    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.4.1-r1_all.ipk"
+    "version": "1.4.2",
+    "comment": "Manifest schema v2 (authors, documentation, license, minPanelVersion) with a front-end minimum-version gate, optional tab count badges, wireless interface-role fixes on edit, sidebar reorder, and expanded docs.",
+    "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.4.2-r1_all.ipk"
   }
 }
