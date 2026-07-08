@@ -3,7 +3,7 @@
     {
       "date": "2026-07-07",
       "title": "Frieren 1.4.2 Released",
-      "description": "Patch release: module manifests grow to schema v2 (authors, documentation, license, minimum panel version) with a front-end minimum-version gate that blocks modules needing a newer panel, optional tab count badges, wireless interface-role fixes on edit, UI-layout compliance fixes, and expanded docs. More info: <a href=\"https://github.com/xchwarze/frieren/releases/tag/1.4.2\" target=\"_blank\" rel=\"noopener noreferrer\">Release notes</a>"
+      "description": "Patch release: module manifests grow to schema v2 with a front-end minimum-version gate that blocks modules needing a newer panel, optional tab count badges, wireless interface-role fixes on edit, UI-layout compliance fixes, and expanded docs. <strong>Important: update your installed modules to their latest versions before installing new ones.</strong> More info: <a href=\"https://github.com/xchwarze/frieren/releases/tag/1.4.2\" target=\"_blank\" rel=\"noopener noreferrer\">Release notes</a>"
     },
     {
       "date": "2026-06-12",
@@ -48,7 +48,7 @@
   ],
   "lastVersion": {
     "version": "1.4.2",
-    "comment": "Manifest schema v2 (authors, documentation, license, minPanelVersion) with a front-end minimum-version gate, optional tab count badges, wireless interface-role fixes on edit, sidebar reorder, and expanded docs.",
+    "comment": "Manifest schema v2 with a front-end minimum-version gate, optional tab count badges, wireless interface-role fixes on edit, sidebar reorder, and expanded docs. Update your installed modules before installing new ones.",
     "updateUrl": "https://github.com/xchwarze/frieren-release/raw/refs/heads/master/packages/openwrt/latest/frieren_1.4.2-r1_all.ipk"
   }
 }
