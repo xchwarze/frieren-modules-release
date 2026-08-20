@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "date": "2026-08-20",
+      "title": "Aura Full Released",
+      "description": "Aura Full, my WiFi reconnaissance and wardriving engine for OpenWrt, is now available at <a href=\"https://frieren.exocetlabs.com/\" target=\"_blank\" rel=\"noopener noreferrer\">frieren.exocetlabs.com</a>. Multi-radio scanning across 2.4/5/6 GHz, simultaneous multi-adapter operation, handshake/PMKID capture, Hashcat export, deauth/beacon flood, GPS wardriving with WiGLE CSV, presence monitoring, and web panel + CLI. Supports 5 architectures (MIPS, MIPS BE, ARM, ARM64), 2 devices per license."
+    },
+    {
       "date": "2026-07-13",
       "title": "Frieren 1.4.3 Released",
       "description": "Performance-focused release: a big cut in per-request subprocess spawns and a non-blocking session make the panel noticeably snappier, plus a runtime terminal enable/disable toggle and fixes to the UCI config parser and DHCP static-lease deletion. More info: <a href=\"https://github.com/xchwarze/frieren/releases/tag/1.4.3\" target=\"_blank\" rel=\"noopener noreferrer\">Release notes</a>"
